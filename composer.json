@@ -3,7 +3,6 @@
     "description": "Project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0-or-later",
-    "authors": [],
     "repositories": [
         {
             "type": "composer",
@@ -16,7 +15,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/console": "^1.0.2",
-        "drupal/core": "^8.7.0",
+        "drupal/core": "^8",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
@@ -44,7 +43,8 @@
         "drupal/amp": "^3",
         "drupal/amptheme": "^3",
         "drupal/entityqueue": "^1",
-        "drupal/yoast_seo": "^1"
+        "drupal/yoast_seo": "^1",
+        "drupal/ctools": "^3"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -107,5 +107,14 @@
                 ".gitattributes": "../.gitattributes"
             }
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "Frank Pfabigan",
+            "email": "frank.pfabigan@gmail.com",
+            "homepage": "https://phoenixseo.de",
+            "role": "SEO"
+        }
+    ],
+    "homepage": "https://gefache-verpackungen.de"
 }
